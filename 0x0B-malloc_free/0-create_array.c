@@ -10,10 +10,9 @@
  * Return: pointer to the array (Success), NULL (Error)
  */
  
- int main(void) {
+ int main(void){
  }
-char *create_array(unsigned int size, char c)
-{
+char *create_array(unsigned int size, char c){
 
 	char *p;
 	unsigned int i = 0;
