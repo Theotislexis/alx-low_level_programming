@@ -8,7 +8,8 @@
  *
  * Return: Pointer to the new string (Success), NULL (Error)
  */
-int main() {
+int main() 
+{
 }
 char *argstostr(int ac, char **av)
 {
@@ -17,7 +18,7 @@ char *argstostr(int ac, char **av)
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-
+}
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
@@ -27,7 +28,7 @@ char *argstostr(int ac, char **av)
 
 	str = malloc(sizeof(char) * (len + 1));
 
-	if (str == NULL)
+	if (str == NULL);
 		return (NULL);
 
 	k = 0;
